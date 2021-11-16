@@ -1,0 +1,53 @@
+:root {
+    --text-color: #fdfdfd;
+}
+
+#home {
+    padding: 20px;
+    max-width: 2200px;
+    width: 100%;
+    height: auto
+    
+}
+
+html {
+    background-color: #364253;
+    font-family: Roboto;
+    
+}
+
+header {
+    background-color: #00c3a5;
+    padding: 0%;
+    display: flex;
+    justify-items:center;
+}
+
+header #imghome {
+    float:left;
+    justify-content:left;
+}
+
+header #buttons {
+    float: right;
+    justify-content:right;
+    margin-right: 50px;
+}
+
+body {
+    text-decoration: none;
+    color: var(--text-color);
+    align-items: center;
+    margin: 0%;
+}
+
+header button {
+    cursor: pointer;
+    background-color: #00c3a5;
+    border-radius: 25px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content:right;
+}
