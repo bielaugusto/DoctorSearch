@@ -1,5 +1,13 @@
+:root {
+    --text-color: #fdfdfd;
+}
+
+/*body {
+    background-image: url(/Images/Medico.jpg);
+}*/
+
 form {
-    border-radius: 8px;
+    border-radius: 15px;
     margin: 40px auto;
     padding: 40px;
     display: flex;
@@ -19,7 +27,7 @@ form h1 {
 
 form fieldset {
     border: 1;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 form legend {
@@ -51,7 +59,7 @@ form select {
     border: 0;
     padding: 16px 24px;
     font-size: 22px;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 form a button {
