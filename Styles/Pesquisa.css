@@ -3,21 +3,21 @@ body #lista {
     height: auto;
     align-items: center;
     background-color: #414f63;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0 auto;
     padding: 20px;
-    border-radius: 10%;
+    border-radius: 15px;
+    text-align: center;
 }
 
 #pagina {
     background-color: #3a485c;
     align-items: center;
     margin: 5%;
-    width: auto;
+    width: 1200px;
     height: auto;
     padding: 40px;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
 body #perfil{
@@ -43,6 +43,7 @@ body #perfil{
     padding: 3px;
     background-color: #414f63;
     border: 1px solid #dbdbdb;
+    border-radius: 15px;
 }
 
 #info {
@@ -51,8 +52,3 @@ body #perfil{
     height: 50px;
     text-align: justify;
 }
-
-
-
-
-
